@@ -7,6 +7,8 @@
 // The checks at the bottom print ✅ when your function is correct.
 
 function isEven(n) {
+    return n % 2 === 0;
+
   // your code here
 }
 

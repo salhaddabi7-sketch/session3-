@@ -6,9 +6,8 @@
 // The checks at the bottom print ✅ when your function is correct.
 
 function toFahrenheit(celsius) {
-  // your code here
+  return celsius * 9 / 5 + 32;
 }
-
 // ----- Checks (do not edit) -----
 check("toFahrenheit(0)", () => toFahrenheit(0), 32);
 check("toFahrenheit(100)", () => toFahrenheit(100), 212);

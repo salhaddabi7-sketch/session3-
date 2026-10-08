@@ -7,9 +7,8 @@
 // The checks at the bottom print ✅ when your function is correct.
 
 function isLeapYear(year) {
-  // your code here
+  return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
 }
-
 // ----- Checks (do not edit) -----
 check("isLeapYear(2024)", () => isLeapYear(2024), true);
 check("isLeapYear(1900)", () => isLeapYear(1900), false);
